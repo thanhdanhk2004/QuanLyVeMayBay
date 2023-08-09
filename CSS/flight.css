@@ -1,0 +1,23 @@
+div.text{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    text-shadow: 2px 1px gray;
+}
+div.image >img{
+    width: 100%;
+    height: 300px;
+}
+/*===== PHẦN BẢNG ======*/
+table{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse; /*Gop cac duong vien lai voi nhau*/
+}
+tr > td{
+    border: 1px solid gray;
+}
+tr.table-row-first{
+    color: blue;
+}

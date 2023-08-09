@@ -1,0 +1,80 @@
+[{
+    "place":"TPHCM",
+    "length":0
+},
+{
+    "place":"Hà Nội",
+    "length":1200
+},
+{
+    "place":"Đà Nẵng",
+    "length":700
+},
+{
+    "place":"Thái Lan",
+    "length":800
+},
+{
+    "place":"Singapore",
+    "length":1200
+},
+{
+    "place":"Campuchia",
+    "length":500
+},
+{
+    "place":"Lào",
+    "length":700
+},
+{
+    "place":"Trung Quốc",
+    "length":2500
+},
+{
+    "place":"Hàn Quốc",
+    "length":3500
+},
+{
+    "place":"Nhật Bản",
+    "length":3800
+},
+{
+    "place":"Úc",
+    "length":8000
+},
+{
+    "place":"Brazil",
+    "length":18000
+},
+{
+    "place":"Cuba",
+    "length":18000
+},
+{
+    "place":"Mexico",
+    "length":16000
+},
+{
+    "place":"Anh",
+    "length":10000
+},
+{
+    "place":"Pháp",
+    "length":11000
+},
+{
+    "place":"Đức",
+    "length":10000
+},
+{
+    "place":"Ai Cập",
+    "length":8000
+},
+{
+    "place":"Kenya",
+    "length":8000
+},
+{
+    "place":"Nam Phi",
+    "length":10000
+}]

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="/images/logo.jpg" alt="logo"></a>
+            <ul class="menu1 flex menu-container">
+                <li></i><a href="./index.html"><i class="fa-solid fa-house" style="margin-right: 10px;"></i>Trang chủ</a></li>
+                <li><a href="/HTML/login.html">Đăng nhập<i class="fa-solid fa-right-to-bracket" style="margin-left: 10px;"></i></a></li>
+                <li><a href="/HTML/register.html">Đăng ký</a></li>
+                <li><a href="#">Ngôn ngữ<i class="fa-solid fa-globe" style="margin-left: 10px;"></i></a></li>
+            </ul>
+        </nav>
+        <nav> 
+            <ul class=" menu1 menu2 flex menu-container">
+                <li><a href="#"><i class="fa-solid fa-gift" style="margin-right: 10px;"></i>Khuyến mãi</a></li>
+                <li><a href="#"><i class="fa-solid fa-plane" style="margin-right: 10px;"></i>Sân bay</a></li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style="margin-right: 10px;"></i>Dịch vụ ăn uống</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info" style="margin-right: 10px;"></i>Thông tin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="clear: both;">
+       <div class="container">
+            <form action="">
+                <h1>Tạo tài khoản</h1>
+                <div class="form-control">
+                    <input id="username" type="text" placeholder="Tên đăng nhập" value="">
+                    <small></small>
+                    <span></span>
+                </div>
+                <div class="form-control">
+                    <input id="phone-number" type="text" placeholder="Số điện thoại" minlength="10" maxlength="10" value="">
+                    <small></small>
+                    <span></span>
+                </div>
+                <div class="form-control ">
+                    <input id="email" type="email" placeholder="Email" value="">
+                    <small></small>
+                    <span></span>
+                </div>
+                <div class="form-control ">
+                    <input id="password" type="password" placeholder="Mật khẩu" value="">
+                    <small></small>
+                    <span></span>
+                </div>
+                <div class="form-control ">
+                    <input id="confirm-passwod" type="password" placeholder="Xác nhận mật khẩu" value="">
+                    <small></small>
+                    <span></span>
+                </div>
+                <button type="submit" class="btn">Đăng ký</button>
+                <p>Bạn đã có tài khoản?
+                    <a href="/HTML/login.html">Đăng nhập</a>
+                </p>
+            </form>
+       </div>
+    </main>
+    <footer>
+        <div class="footer-clean">
+            <div class="containers">
+                <div class="item">
+                    <h3>Về Korean Air</h3>
+                    <ul>
+                        <li><a href="#">Chúng tôi là ai </a></li>
+                        <li><a href="#">Phát triển bền vững </a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Thông báo </a></li>
+                        <li><a href="#">Câu hỏi thường gặp </a></li>
+                        <li><a href="#">Trung tâm dịch vụ </a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Chính sách & điều khoản</h3>
+                    <ul>
+                        <li><a href="#">Chính sách bảo mật </a></li>
+                        <li><a href="#">Điều khoản sử dụng </a></li>
+                        <li><a href="#">Pháp lí </a></li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <h3>Thông tin khác</h3>
+                    <ul>
+                        <li><a href="#">Đi công tác </a></li>
+                        <li><a href="#">Dịch vụ thông báo </a></li>
+                        <li><a href="#">Các trang web khác </a></li>
+                    </ul>
+                </div>
+                <div class="item social">
+                    <a href="#"><i class="footer_navbar-icon fa-brands fa-facebook" style="color: blue;"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok" style="color:black"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="color:red"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color:rgb(113, 6, 24)"></i></a>
+                    <p class="copyright">Welcome © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/register.js"></script>
+</body>
+</html>

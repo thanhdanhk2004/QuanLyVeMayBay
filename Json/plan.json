@@ -1,0 +1,30 @@
+[{
+    "href":"/HTML/flightSchedules7.html",
+    "img":"/images/ChAuA.jpg",
+    "text":"Lich trinh bay đến một số nước Đông Nam Á"
+},
+{
+    "href":"/HTML/flightSchedules2.html",
+    "img":"/images/ChauUc.jpg",
+    "text":"Lich trinh bay đến một số nước Châu Á"
+},
+{
+    "href":"/HTML/flightSchedules3.html",
+    "img":"/images/ChauMy.jpg",
+    "text":"Lich trinh bay đến nước Úc"
+},
+{
+    "href":"/HTML/flightSchedules4.html",
+    "img":"/images/ChauAu.jpg",
+    "text":"Lich trinh bay đến một số nước Châu Mỹ"
+},
+{
+    "href":"/HTML/flightSchedules5.html",
+    "img":"/images/ChauPhi.jpg",
+    "text":"Lich trinh bay đến một số nước Châu Âu"
+},
+{
+    "href":"/HTML/flightSchedules6.html",
+    "img":"/images/DongNamA.jpg",
+    "text":"Lich trình bay đến một số nước Châu Phi"
+}]

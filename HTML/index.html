@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chắp cánh cùng người Việt</title>
+    <meta name="keywords" content="Hãng hàng không việt nam">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/logoPlane.jpg" class="logo"/>
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="/JS/readFile.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="/images/logo.jpg" alt="logo"></a>
+            <ul class="menu1 flex menu-container">
+                <li></i><a href="./index.html"><i class="fa-solid fa-house" style="margin-right: 10px;"></i>Trang chủ</a></li>
+                <li><a href="/HTML/login.html">Đăng nhập<i class="fa-solid fa-right-to-bracket" style="margin-left: 10px;"></i></a></li>
+                <li><a href="/HTML/register.html">Đăng ký</a></li>
+                <li><a href="#">Ngôn ngữ<i class="fa-solid fa-globe" style="margin-left: 10px;"></i></a></li>
+            </ul>
+        </nav>
+        <nav> 
+            <ul class=" menu1 menu2 flex menu-container">
+                <li><a href="#"><i class="fa-solid fa-gift" style="margin-right: 10px;"></i>Khuyến mãi</a></li>
+                <li><a href="#"><i class="fa-solid fa-plane" style="margin-right: 10px;"></i>Sân bay</a></li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style="margin-right: 10px;"></i>Dịch vụ ăn uống</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info" style="margin-right: 10px;"></i>Thông tin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="clear: both;">
+        <section>
+            <div class="image-container">
+                <img src="/images/sky.jpg!d">
+            </div>
+            <div class="image-text">
+                <div>
+                    <div>
+                        <nav>
+                            <ul class="menu3 flex menu2-container">
+                                <li class="color"><a href="#tab1">Đặt vé chuyến bay</a></li>
+                                <li><a href="#tab2">Chuyến bay của tôi</a></li>
+                                <li><a href="#tab3">Làm thủ tục chuyến bay</a></li>
+                                <li><a href="#tab4">Tình trạng chuyến bay</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="content">
+                    <div id="tab1">
+                        <div>
+                            <nav>
+                                <ul class="flex menu4">
+                                    <li><a href="#">Đặt vé</a></li>
+                                    <li><a href="#">Loại vé</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div>
+                            <div class="choose flex">
+                                <button class="from">
+                                    <a href="#">TỪ</a>
+                                    <span id="demo1"></span>
+                                    <div class="v-menu">
+                                        <input id="go" type="text" placeholder="Nhập địa điểm xuất phát.." value="">
+                                        <a class="lick" href="#"><i class="fa-solid fa-x"></i></a>
+                                    </div>
+                                </button>
+                                <button class="convert">
+                                    <a href="#" class="fa-solid fa-arrows-rotate"></a>
+                                </button>                   
+                                <button class="to">
+                                    <a href="#">ĐẾN</a>
+                                    <span id="demo2"></span>
+                                    <div class="v-menu2">
+                                        <input id="back" type="text" placeholder="Nhập địa điểm đến.." value="">
+                                        <a class="lick2" href="#"><i class="fa-solid fa-x"></i></a>
+                                    </div>
+                                </button>
+                                <div class="date">
+                                    <p>Ngày đi</p>
+                                    <div>
+                                        <span><input type="date" name="ngày đi" id="date" value=""></span>
+                                    </div>
+                               </div>
+                               <div class="people">
+                                    <p>Số lượng</p>
+                                    <div>
+                                        <button class="minus" onclick="handelMinus()"><i class="fa-solid fa-minus"></i></button>
+                                        <input type="text" name="amount" id="amount" value="0">
+                                        <button class="plus" onclick="handlePlus()"><i class="fa-solid fa-plus"></i></button>
+                                        <i class="fa-solid fa-user fa-beat"></i>   
+                                    </div>
+                               </div>
+                               <div class="chair">
+                                    <p>Khoang hành khách</p>
+                                    <div>
+                                        <select class="opt">
+                                            <option value="1">Hạng thương gia</option>
+                                            <option value="2">Hạng phổ thông</option>
+                                            <option value="3">Hạng tiết kiệm</option>
+                                        </select>
+                                        <i class="fa-solid fa-chair fa-beat"></i>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tab2"></div>
+                    </div>
+                    <div>
+                        <div class="tab3"></div>
+                    </div>
+                    <div>
+                        <div class="tab4"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div id="wrapper">
+                <div id="carousel">
+                  <div id="content">
+                    <a href="/HTML/flightSchedules1.html">
+                      <div class="thumb">
+                          <img src="/images/VietNam.jpg"/>
+                          <p><span class="text">Lich trinh bay đến các tỉnh trong nước</span></p>
+                      </div>
+                    </a>    
+                  </div>   
+                </div> 
+               <button id="prev">
+                <!--Svg: Biểu đồ vecto-->
+                <!--xmlns: Cho biết đây là một tài liệu SVG-->
+                <!--ViewBox: tọa độ 4 tham số: giống với width và height-->
+                <!--path: Ve cac hinh dang tuy chinh.-->
+                <!--d: Vẽ hình dạng-->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z"/>
+                    <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"/>
+                  </svg>
+                </button>
+                <button id="next">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z" />
+                    <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                  </svg>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div><h1>Tin tức mới</h1></div>
+                <div class="notifis">
+                    <div class="notifi">
+                        <a href="#">
+                            <div>
+                                <p>Le Thanh Dan</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="notifi">
+                        <a href="#">
+                            <div>
+                                <p>Le Thanh Dan</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="notifi">
+                        <a href="#">
+                            <div>
+                                <p>Le Thanh Dan</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-clean" style="background-color: blue;">
+            <div class="containers">
+                <div class="item">
+                    <h3>Về Korean Air</h3>
+                    <ul>
+                        <li><a href="#">Chúng tôi là ai </a></li>
+                        <li><a href="#">Phát triển bền vững </a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Thông báo </a></li>
+                        <li><a href="#">Câu hỏi thường gặp </a></li>
+                        <li><a href="#">Trung tâm dịch vụ </a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Chính sách & điều khoản</h3>
+                    <ul>
+                        <li><a href="#">Chính sách bảo mật </a></li>
+                        <li><a href="#">Điều khoản sử dụng </a></li>
+                        <li><a href="#">Pháp lí </a></li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <h3>Thông tin khác</h3>
+                    <ul>
+                        <li><a href="#">Đi công tác </a></li>
+                        <li><a href="#">Dịch vụ thông báo </a></li>
+                        <li><a href="#">Các trang web khác </a></li>
+                    </ul>
+                </div>
+                <div class="item social ">
+                    <a href="https://www.facebook.com/profile.php?id=100066713681977"><i class="footer_navbar-icon fa-brands fa-facebook" style="color: blue;"></i></a>
+                    <a href="https://www.tiktok.com/@lethanh2022_"><i class="fa-brands fa-tiktok" style="color:black"></i></a>
+                    <a href="https://www.youtube.com/channel/UCBpBUCUykd83mN0RhEZXqUw"><i class="fa-brands fa-youtube" style="color:red"></i></a>
+                    <a href="https://www.instagram.com/lethanhdan7"><i class="fa-brands fa-instagram" style="color:rgb(113, 6, 24)"></i></a>
+                    <p class="copyright">Welcome © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+    <script src="/JS/app.js"></script>
+</body>
+</html>

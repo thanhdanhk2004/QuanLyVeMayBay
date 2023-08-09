@@ -1,0 +1,541 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*reponsive design web*
+/*Mobile:width<740px
+  Tablet: width >= 740 and width < 1024px
+  PC: width >= 1024px*/
+/*@media screen and(max-width: 46.1875em){
+    
+}
+@media screen and(min-width: 46.25em) and(max-width:63.9375em){
+
+}
+@media screen and(max-width: 64em){
+    
+}*/
+
+/* ==== Menu thứ nhât =====*/
+.menu1{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.flex{
+    display: flex;
+}
+.menu-container {
+    width: 50%; /* Đặt chiều rộng là 50% của trang web */
+    float: right; /* Đưa menu vào bên phải */
+    justify-content: space-between;
+}
+ul.menu1 > li{
+    width: 100%;
+    border-right: 1px solid rgb(0, 195, 255);
+    text-align: center;
+    padding:4px 0;
+}
+ul.menu1>li:last-child{
+    border-right: none;
+}
+ul.menu1 > li> a{
+    text-decoration: none;
+}
+ul.menu1 > li> a:hover{
+    text-decoration: none;
+    color: brown;
+}
+nav img{
+    width: 20%;
+    border: 2px;
+    justify-items: center;
+    float: left;
+    margin-left: 5%;
+}
+/* ===== Menu thứ 2 =====*/
+
+ul.menu2{
+    width: 60%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-right: 60px;
+}
+ul.menu2 > li{
+    border-right: none;
+    font-size: 20px;
+    padding: 3px;
+}
+ul.menu2>li>a{
+    display: block;
+    border-radius: 5px;
+    padding: 16px;
+}
+ul.menu2>li>a:hover{
+    border: 1px solid blue;
+    color:black;
+}
+
+/*Phan than1*/
+
+
+/* ===== Phan hinh anh ===== */
+.image-container {
+    position: relative;
+}
+  /* Định dạng hình ảnh */
+.image-container img {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+.image-text{
+    position: absolute;
+    width:90%;
+    top: 40%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+.menu3{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin: auto;/*Cho ra chinh giua*/
+}
+.menu3 > li{
+    padding-top: 20px;
+    justify-items: space-between;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(183, 178, 178);
+    color: black;
+    border-radius: 20px 20px 0 0;
+}
+.menu3 > li:last-child{
+    border-right: none;
+}
+.menu3>li>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.menu3>li>a:hover{
+    text-decoration: underline;
+}
+
+/* ===== Phan table ===== */
+.content{
+    width: 100%;
+    background-color: white;
+}
+
+/* ===== Menu4 ===== */
+.menu4{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+ul.menu4 > li{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 5px;
+}
+ul.menu4>li:first-child{
+    width: 8%;
+    margin-left: 25px;
+    border-radius: 35px 0 0 35px;
+    background-color: blue;
+}
+ul.menu4>li:last-child{
+    width: 13%;
+    border-radius: 0 35px 35px 0;
+    background-color: gray;
+}
+.menu4 > li>a{
+    display: block;
+    text-decoration: none;
+}
+.menu4 > li>a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* ===== Phan tim noi di ===== */
+.choose{
+    padding-left: 40px;
+}
+.choose > button > a{
+    text-decoration: none;
+}
+.choose>button{
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    padding: 15px 0 20px 10px;
+}
+.choose>button>a{
+    display: block;
+    padding:1em;
+}
+.from > span{
+    font-size: 13px;
+}
+.to > span{
+    font-size: 13px;
+}
+.choose > button > a:hover{
+    border: 1px solid blue;
+}
+
+/* ===== Phan ngay di chuyen ===== */
+div.date > p{
+    margin: 10px 0 15px 0;
+}
+div.date{
+    padding-left: 100px;
+    text-align: left;
+    color: gray;
+    font-size: 20px;
+}
+
+input[type="date"]{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding:0 20px 0 0;
+    cursor: pointer;
+    outline: none;
+}
+/* ===== Phan hanh khach ===== */
+div.people>p{
+    margin: 10px 0 15px 0;
+}
+div.people{
+    padding-left: 150px;
+    text-align: left;
+    color: gray;
+    font-size: 20px;
+}
+div.people > div > input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-align: center;
+}
+div.people > div > button{
+    cursor: pointer; /*Hover chuot vao thi hienj*/
+    border: none;
+}
+/* ===== Phan ghe ===== */
+
+div.chair>p{
+    margin: 10px 0 10px 0;
+}
+div.chair{
+    padding-left: 130px;
+    text-align: left;
+    color: gray;
+    font-size: 20px;
+}
+.opt{
+    width:170px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-align: center;
+}
+
+/*==== PHAN ẢNH ====*/
+div.picture{
+    width:30%;
+    margin:0 5px;
+    background-color: rgb(222, 204, 210);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+div.picture >div > img{
+    border-radius: 10px;
+    width:100%;
+    cursor: pointer;
+}
+div.picture >div > img:hover{
+    transform: scale(1.1);
+}
+div.pictures > div{
+    overflow: hidden;
+}
+div.picture>a{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+div.picture>a:hover{
+    color:brown;
+}
+
+/*=========== Phan truot anh =============*/  
+
+#wrapper {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    background-color: transparent;
+    top:20px;
+    margin:0 auto;
+}
+  
+#carousel {
+    padding: 20px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+#carousel::-webkit-scrollbar {
+    height: 0;
+}
+  
+#prev,  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: -13px;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: -15px;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  
+#content .thumb{
+    width: 315px;
+    height: 240px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 5px #e5e3e3;
+}
+  
+  #content a{
+    
+    text-decoration: none;
+  }
+  
+  #content a:hover{
+    text-decoration: underline;
+  }
+  
+  #content .thumb img{
+    width: 100%;
+    max-height: 180px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .thumb p{
+    padding-left: 8px ;
+    padding: 8px 8px;
+    
+    margin: 0 7px 7px;
+  }
+  
+  .text{
+    color: #383838;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+/*================== footer =======================*/
+.footer-clean{
+    padding: 50px 0;
+    background-color: white;
+    color: #383838;
+}
+
+.footer-clean h3{
+    font-weight:bold;
+    font-size:16px;
+}
+
+
+.containers{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    
+}
+.containers>.item>ul{
+    padding-left: 15px;
+}
+.containers a{
+    text-decoration: none;
+    font-size: 12px;
+    color: inherit;
+}
+
+.containers li>a:hover{
+    color: rgb(119, 23, 175);
+    text-decoration: underline;
+}
+
+.item{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+
+.social a i{
+    
+    font-size:28px;
+    width: 30px;
+    height: 30px;
+    line-height: 31px;
+    display:inline-block;
+    margin-left:10px;
+    margin-top:20px;
+    opacity:0.8;
+}
+.copyright {
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-right: 67px;
+}
+#content > a > div > img:hover{
+    transform: scale(1.1);
+}
+#content > a > div{
+    overflow: hidden;
+}
+#content > a:hover{
+    text-decoration: none;
+}
+#content > a>div>p>span.text:hover{
+    color:rgb(165, 42, 50);
+}
+
+/* ============== CSS khi nhấn nut button dia diem tu ==============*/
+
+.v-menu{
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 50%;
+    top:230px;
+    left:10px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 6px 7px 7px rgb(236, 229, 229);
+}
+
+.v-menu > input{
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 450px;
+    height: 45px;
+    border: 1px solid blue;
+}
+.v-menu > a{
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    margin-left: 30px;
+}
+
+/* ============== CSS khi nhấn nut button từ địa điểm den ==============*/
+
+.v-menu2{
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 50%;
+    top:230px;
+    left:10px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 6px 7px 7px rgb(236, 229, 229);
+}
+
+.v-menu2 > input{
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 450px;
+    height: 45px;
+    border: 1px solid blue;
+}
+.v-menu2 > a{
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    margin-left: 30px;
+}
+
+
+/*Xu ly the a*/
+.color{
+    background-color: white !important;
+}
+
+.err{
+    border: 1px solid red !important;
+}
+
+/*======= CSS notifi =========*/
+
+.notifis > div:last-child{
+    border-bottom: 1px solid gray;
+}
+.notifi{
+    width:50%;
+    padding-top: 6px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+.notifi > a{
+    text-decoration: none;
+}
+.notifi > a:hover{
+    text-decoration: underline;
+    color:black;
+}
+.notifi > a > div >p{
+    text-align: center;
+    color: rgb(156, 138, 138);
+}
+.notifi > a > div >p:hover{
+    color: black;
+}
